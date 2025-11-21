@@ -1,0 +1,94 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#                                        ----[ClansLite]----                                        #
+#                                     ----[By Loving11ish]----                                      #
+#                       ----[Contributors: TechnicallyCoded, GameKuchen]----                        #
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#                                 ----[Plugin GUI Config File]----                                  #
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#ClansLite gui config for 1.6.2
+
+#General GUI settings
+gui-fillers:
+  #Do you want to use the GUI fillers?
+  #These are the items that fill the GUI's to make them look better.
+  #OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true'
+  enabled: true
+  #What material do you want to use for the GUI fillers?
+  #OPTIONS: 'material', PLACEHOLDERS: none, DEFAULT:'BLACK_STAINED_GLASS_PANE'
+  material: 'BLACK_STAINED_GLASS_PANE'
+  #What is the name of the GUI fillers?
+  #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT:' '
+  name: " "
+  #What lore do you want to use for the GUI fillers?
+  #OPTIONS: 'anyList', PLACEHOLDERS: none, DEFAULT:[]
+  lore: [ ]
+
+#This is the options for the ClanList GUI
+clan-list:
+  #What name would you like the gui to have?
+  #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT: "&3Clans List"
+  name: "&3Clans List"
+
+  #Message sent when your on the first page.
+  #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT: "&7You are on the first page."
+  GUI-first-page: "&7You are on the first page."
+  #Message sent when your on the last page.
+  #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT: "&7You are on the last page."
+  GUI-last-page: "&7You are on the last page."
+
+  #Menu controls options
+  menu-controls:
+    #The name of the previous page icon
+    #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT: "&2Previous Page"
+    previous-page-icon-name: "&2Previous Page"
+    #The name of the next page icon
+    #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT: "&2Next Page"
+    next-page-icon-name: "&2Next Page"
+    #The name of the close/go back icon
+    #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT: "&4Close/Go Back"
+    close-go-back-icon-name: "&4Close/Go Back"
+
+  icons:
+    icon-display-name:
+      #Do you want to use the Clan Name as the title for the icon: [Default value: true]
+      #If below is 'false' the name will be empty.
+      #OPTIONS: 'true'/'false', PLACEHOLDERS: none, DEFAULT:'true'
+      use-clan-name: true
+
+    #This allows you to customise the lore text for the player head icons in the ClanList GUI.
+    lore:
+      #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT:'&7----------'
+      header: "&7----------"
+      #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT:'&3Clan Prefix: '
+      prefix: "&3Clan Prefix: "
+      #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT:'&3Clan Owner: &d'
+      owner-online: "&3Clan Owner: &d"
+      #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT:'&3Clan Owner &7&o(Offline)&3: &d'
+      owner-offline: "&3Clan Owner &7&o(Offline)&3: &d"
+      #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT:'&3Clan Members:'
+      members: "&3Clan Members:"
+      #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT:'&3Clan Allies:'
+      allies: "&3Clan Allies:"
+      #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT:'&3Clan Enemies:'
+      enemies: "&3Clan Enemies:"
+      #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT:'&7----------'
+      footer-1: "&7----------"
+      #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT:'&d&oClick to send an invite request to this clan owner if online'
+      action: "&d&oClick to send an invite request to this clan owner if online"
+      #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT:'&7----------'
+      footer-2: "&7----------"
+
+#This is the options for the ClanJoinRequest GUI
+clan-join:
+  #What name would you like the gui to have?
+  #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT: "&3Ask to join Clan?"
+  name: "&3Ask to join Clan?"
+
+  icons:
+    #This allows you to customise the name text for the icons in the ClanJoinRequest GUI.
+    #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT:'&a&oSend request to join?'
+    send-request-name: "&a&oSend request to join?"
+    #OPTIONS: 'anyString', PLACEHOLDERS: none, DEFAULT:'&c&oCancel and go back'
+    cancel-request-name: "&c&oCancel and go back"
